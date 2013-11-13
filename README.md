@@ -38,6 +38,21 @@ Property | Description
 Title | Link text which appears in the nav.
 Weight (optional) | Numeric weight for the page, lower the number the higher the priority of the page. Pages without a wieght appear last, and in alphabetical order.
 
+### Google Analytics
+
+We've bundled in some nice [Google Analytics](http://www.google.com/analytics/) support within the site. All you need to do is to set the required configuration under the `analytics` key in your `_config.yml` file.
+
+Property | Description 
+:--- | :--- 
+tracking_code | This tracking code is given to your by Google e.g. `UA-000000-00`.
+domain | The domain name for which you are tracking metrics e.g. `www.example.com`
+
+Once this has been done and your site has been rebuilt, analytics data will be enabled.
+
+#### More than just page hits.
+
+In addition to tracking standard page hits, we also automaticly track events on contact links such as `tel:*` or `mailto:*` so you have a better understandning of how people are interacting with your contact elements.
+
 ### Icons
 
 #### Using Icons
