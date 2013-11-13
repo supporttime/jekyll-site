@@ -1,0 +1,12 @@
+# Site Configuration.
+name: 'My Jekyll Site'
+description: 'A basic templated jekyll site.'
+
+# Asset Pipeline Configuraiton.
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets

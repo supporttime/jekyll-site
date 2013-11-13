@@ -1,0 +1,11 @@
+// 3rd Party mixinx library.
+@import "../vendor/css3-mixins";
+
+// Supply our own mixins.
+@mixin header-shadow($color: #333) {
+	span {
+		padding:10px 0;
+	  	background-color: $color;
+	  	box-shadow: 15px 0 0 $color, -15px 0 0 $color;
+	}
+}
