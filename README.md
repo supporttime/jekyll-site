@@ -13,6 +13,29 @@ Assuming you at least have Ruby `1.9.3` installed on your system; You can start 
 
 Your skeleton site should now be running on `http://localhost:3000`
 
+## Building Your Site
+
+
+### Working With Icons
+
+#### Using Icons
+
+By default this project ships with the [Iconic](http://somerandomdude.com/work/iconic/) font-icon set. Although it's a custom build which was compiled using [Fontastic](http://fontastic.me/). This replaces the icon set which is bundled with [Bootstrap](http://getbootstrap.com/), but can be used in much the same manor.
+
+```html
+<i class="icon icon-{{icon name}}"></i>
+```
+
+#### Customizing Icons
+
+To build your own icon set, register with the [Fontastic](http://fontastic.me/) service and create a new font called 'icons'. Once complete download the package which they bundle up for you.
+
+Place the font files (`icons.woff, icons.ttf, icons.eot, icons.svg`) in to the `_assets/fonts/icons` directory.
+
+Next place all the CSS content from the bundled `styles.css` into `_assets/stylesheets/partials/_icons.scss`
+
+The icons within the site should now be using your own custom font.
+
 ## Deploying to GitHub Pages
 
 We include some simple deployment tools for publishing your site to [GitHub Pages](http://pages.github.com/). Due to the fact that the site uses various [Jekyll Plugins](http://jekyllrb.com/docs/plugins/) we can't simply push the source of the site to the gh-pages branch, we need to pre-compile the site before deployment.
