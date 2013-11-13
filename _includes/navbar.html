@@ -1,0 +1,29 @@
+<!-- Navigation Bar. -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <!-- Mobile Nav Toggle. -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="/" itemprop="name">{{ site.name }}</a>
+    </div>
+
+    <!-- Navigation Options / Hidden on Mobile. -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <!-- Main Page Nav -->
+        <ul class="nav navbar-nav">
+            {% for node in site.weighted_pages %}
+                {% if node.nav %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                        <a href="{{node.url}}" title="{{ node.title }}">{{ node.nav.title | default: node.title }}</a>
+                    </li>
+                {% endif %}    
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
