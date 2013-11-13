@@ -33,10 +33,8 @@ nav:
 ---
 ```
 
-Front matter options:
-
 Property | Description 
---- | --- 
+:--- | :--- 
 Title | Link text which appears in the nav.
 Weight (optional) | Numeric weight for the page, lower the number the higher the priority of the page. Pages without a wieght appear last, and in alphabetical order.
 
