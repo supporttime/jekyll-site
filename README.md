@@ -1,6 +1,6 @@
 # Jekyll Site
 
-Inspired by Octopress - this is a Jekyll framework, but directed more at website content than blogging.
+Inspired by [Octopress](https://github.com/imathis/octopress) - this is a [Jekyll](https://github.com/mojombo/jekyll) framework, but directed more at website content than blogging.
 
 ## Quick Started
 
