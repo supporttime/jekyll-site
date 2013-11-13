@@ -15,6 +15,30 @@ Your skeleton site should now be running on `http://localhost:3000`
 
 ## Building Your Site
 
+### Site Navigation
+
+We have a handy little include which allows you to easily drop a Bootstrap Navbar into your site.
+
+```html
+{{ include navbar.html }}
+```
+
+Once your navbar is in place you can use your pages front-matter to configure if and how they appear in the navigation.
+
+```yml
+---
+nav:
+  title: ''
+  weight: 1
+---
+```
+
+Front matter options:
+
+Property | Description 
+--- | --- 
+Title | Link text which appears in the nav.
+Weight (optional) | Numeric weight for the page, lower the number the higher the priority of the page. Pages without a wieght appear last, and in alphabetical order.
 
 ### Working With Icons
 
