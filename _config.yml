@@ -5,6 +5,11 @@ description: 'A basic templated jekyll site.'
 # Meta.
 micro_format: 'http://schema.org/' # Link to the schema.org microformat for the site.
 
+# SEO.
+analytics:
+  tracking_code: 'UA-000000-00'
+  domain: 'www.example.com'
+
 # Contact details.
 contact:
   email: 'info@example.com'
