@@ -23,6 +23,10 @@ This rake task will compile your site and push the latest compiled version up to
 
 For details on how to configure your DNS to route traffic to your site, look at the [GitHub Pages documenation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns).
 
+## Contributing
+
+We love to see people contributing to this project, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic website needs, so some of your suggestions might not find their way in.
+
 ## Versioning
 
 For transparency and insight into our release cycle, and for striving to maintain backward compatibility, This project will be maintained under the Semantic Versioning guidelines as much as possible.
