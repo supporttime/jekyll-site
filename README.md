@@ -2,7 +2,7 @@
 
 Inspired by Octopress - this is a Jekyll framework, but directed more at website content than blogging.
 
-## Quick start
+## Quick Started
 
 Assuming you at least have Ruby `1.9.3` installed on your system; You can start building your own website using this framework by:
 
