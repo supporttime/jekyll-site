@@ -14,6 +14,16 @@
         <!-- Site Title. -->
         <title>{{ page.title }} &#124; {{ site.name }}</title>
 
+        <!-- Favicons. -->
+        <!-- For iPhone with high-resolution Retina display: -->
+        <link href="{{ 'favicons/apple-touch-icon-114x114-precomposed.png' | asset_path }}" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png" />
+        <!-- For first- and second-generation iPad: -->
+        <link href="{{ 'favicons/apple-touch-icon-72x72-precomposed.png' | asset_path }}" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png" />
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link href="{{ 'favicons/apple-touch-icon-57x57-precomposed.png' | asset_path }}" rel="apple-touch-icon-precomposed" type="image/png" />
+        <!-- For all other devices -->
+        <link href="{{ 'favicons/favicon.ico' | asset_path }}" rel="icon" sizes="16x16 32x32 48x48 128x128" type="image/x-icon" />
+
         <!-- Include Local CSS Assets. -->
         {{ 'main' | stylesheet }}
 
