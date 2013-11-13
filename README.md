@@ -2,7 +2,7 @@
 
 Inspired by [Octopress](https://github.com/imathis/octopress) - this is a [Jekyll](https://github.com/mojombo/jekyll) framework, but directed more at website content than blogging.
 
-## Quick Started
+## Getting Started
 
 Assuming you at least have Ruby `1.9.3` installed on your system; You can start building your own website using this framework by:
 
