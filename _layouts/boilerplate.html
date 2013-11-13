@@ -9,7 +9,7 @@
         <link rel="author" href="humans.txt" />
 
         <!-- Description. -->
-        <meta name="description" content="{{ page.description | site.description }}" />
+        <meta name="description" content="{{ page.description | default:site.description }}" />
 
         <!-- Site Title. -->
         <title>{{ page.title }} &#124; {{ site.name }}</title>
@@ -22,7 +22,7 @@
             {{ 'html5shiv' | javascript }}
         <![endif]-->        
     </head>
-    <body>
+    <body itemscope itemtype="{{ site.micro_format }}">
         <!-- Site Content. -->
         {{ content }}
 
