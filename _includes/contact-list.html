@@ -1,0 +1,16 @@
+<ul class="contact-list">
+    <li>
+        <a href="mailto:{{ site.contact.email }}" title="Click to open your email client and send us an email.">
+            <span itemprop="email">{{ site.contact.email }}</span>
+        </a>
+    </li>
+    <li>
+        <a href="tel:{{ site.contact.phone.link }}" title="On mobile devices you can touch this link to start a call.">
+            <span itemprop="telephone">{{ site.contact.phone.display }}</span>
+        </a>
+    </li>
+    <li>
+        <!-- TODO: Make this a clickable link to open maps. -->
+        {% include address.html %}
+    </li>
+</ul>

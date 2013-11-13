@@ -7,6 +7,10 @@ micro_format: 'http://schema.org/' # Link to the schema.org microformat for the 
 
 # Contact details.
 contact:
+  email: 'info@example.com'
+  phone: 
+    link: '+44000000000'
+    display: '+44 (0) 000 - 00000'
   address:
     street: 'PO Box 1'
     town: 'Fake Town'
