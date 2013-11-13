@@ -1,0 +1,13 @@
+/* TEAM */
+Robert Rawlins
+@SirRawlins
+Chichester, United Kingdom.
+
+Robin Geall
+@RobinGeall
+Chichester, United Kingdom.
+                            
+/* SITE */                
+Standards: HTML5, CSS3.
+Components: Jekykll, Bootstrap, jQuery, GitHub
+Software: SublimeText 2
