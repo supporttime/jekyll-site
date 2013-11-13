@@ -5,6 +5,15 @@ description: 'A basic templated jekyll site.'
 # Meta.
 micro_format: 'http://schema.org/' # Link to the schema.org microformat for the site.
 
+# Contact details.
+contact:
+  address:
+    street: 'PO Box 1'
+    town: 'Fake Town'
+    county: 'Fakington'
+    country: 'United Fakedom'
+    post_code: 'FAK3 0NE'
+
 # Asset Pipeline Configuraiton.
 assets:
   js_compressor:  uglifier
