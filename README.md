@@ -15,6 +15,16 @@ Your skeleton site should now be running on `http://localhost:3000`
 
 ## Building Your Site
 
+### Microdata & Schema.org
+
+[http://schema.org/](http://schema.org/) provides a collection of specs, that you can use to markup your pages in ways recognized by major search providers. They will then be able to understand what sort of business you are, what your address is, what your phone number is, what people have said about your products and much more.
+
+We allow you to easily add a site-wide schema to your site; simply add the URL to the appropriate schema (`i.e. http://schema.org/Organization`) to your `_config.yml` under the key `schema`.
+
+Further to this site-wide schema, all the `_includes` for the framework are coded with these schemas in mind.
+
+* `address.html` - [http://schema.org/PostalAddress](http://schema.org/PostalAddress)
+
 ### Site Navigation
 
 We have a handy little include which allows you to easily drop a Bootstrap Navbar into your site.

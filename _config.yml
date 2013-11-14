@@ -3,7 +3,7 @@ name: 'My Jekyll Site'
 description: 'A basic templated jekyll site.'
 
 # Meta.
-micro_format: 'http://schema.org/' # Link to the schema.org microformat for the site.
+schema: 'http://schema.org/' # Link to the schema.org microformat for the site.
 
 # SEO.
 analytics:
